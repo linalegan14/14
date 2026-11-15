@@ -1,12 +1,31 @@
-*.aux
-*.fdb_latexmk
-*.fls
-*.log
-*.out
-*.synctex.gz
-*.toc
-*.pdf
+# VSCode uporabniške nastavitve
+.vscode/
 
-05-latex/test/
-05-latex/urnik.zip
-latex-pregled/
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.toc
+*.fls
+*.idx
+*.ilg
+*.ind
+*.log
+*.nav
+*.out
+*.pdf
+*.snm
+*.synctex.gz
+*.synctex(busy)
+
+# Arhivi, iz katerih smo datoteke že odpakirali
+*.zip
+
+
+# Windows
+Thumbs.db
+
+# Python
+__pycache__
+*.pyc
